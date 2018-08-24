@@ -45,7 +45,7 @@ namespace ClassAndObject
                         }
                         break;
                     case "print":
-                        Console.WriteLine($"This glass contains {glass.LiquidLevel} of liquid. ");
+                        Console.WriteLine("This glass contains "+ glass.LiquidLevel +" of liquid. ");
                         //Console.WriteLine
                         break;
                     default:
